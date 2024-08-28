@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
         openGitHub();
       } else if (href === "https://www.linkedin.com/in/adeolu-abiodun-42a858279/") {
         openLinkedIn();
+      } else {
+        window.location.href = href; // Fallback for any other links
       }
     });
   });
