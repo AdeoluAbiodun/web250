@@ -24,9 +24,13 @@ header, footer {
   border-bottom: 3px solid #ffafcc;
 }
 
-footer .p {
+footer p {
   color: #f2cc8f;
   font-family: 'Montserrat', sans-serif;
+}
+
+figcaption {
+  font-size: 14px;
 }
 
 h1 {
