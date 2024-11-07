@@ -24,6 +24,10 @@ header, footer {
   border-bottom: 3px solid #ffafcc;
 }
 
+footer .p {
+  color: #3d405b;
+}
+
 h1 {
   color: #f2cc8f; /*#3d405b; /*#f2cc8f;*/ /*ffafcc;*/
   font-family: 'Montserrat', sans-serif;
@@ -36,7 +40,7 @@ h2 {
   font-size: 30px;
   color: #3d405b; /*#f2cc8f;*/ /*ffafcc;*/
   text-align: center;
-  font-weight: 1500;
+  font-weight: 1000;
   font-family: 'Merriweather', serif;
   margin-bottom: 20px;
 }
