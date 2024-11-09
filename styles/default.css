@@ -196,3 +196,46 @@ label {
     font-size: 20px;
   }
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header, footer {
+    background-color: #219ebc;
+    color: orange;
+    text-align: center;
+}
+
+header {
+    padding: 10px 0;
+}
+
+footer {
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    margin: 10px 0;
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    border: 1px solid #023047;
+}
