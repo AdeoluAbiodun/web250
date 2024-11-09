@@ -152,6 +152,30 @@ label {
   font-size: 18px;
 }
 
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+#fizzbuzzbang-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 600px;
+}
+
+#fizzbuzzbang-form label, #fizzbuzzbang-form input {
+  flex: 1 1 45%;
+  margin-bottom: 10px;
+}
+
+#fizzbuzzbang-form button {
+   margin-top: 15px;
+   width: 100%;
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 16px;
