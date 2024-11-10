@@ -18,7 +18,7 @@ header, footer {
   text-align: center;
   background-color: #3d405b;
   color: #e07a5f;
-  padding: 10px 0;
+  padding: 5px 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   border-bottom: 3px solid #ffafcc;
@@ -34,7 +34,7 @@ h1 {
   color: #f2cc8f;
   font-family: 'Montserrat', sans-serif;
   font-size: 42px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -49,7 +49,7 @@ h2 {
 
 h3 {
   font-family: 'Merriweather', serif;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 p {
