@@ -151,6 +151,14 @@ figcaption {
   text-align: center;
 }
 
+#name, #email, #computer {
+    width: 300px;
+}
+
+#background, #professional, #courses, #funny {
+      width: 100%;
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 16px;
