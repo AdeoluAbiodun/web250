@@ -3,24 +3,23 @@ document.addEventListener("DOMContentLoaded", function() {
     const resultsDiv = document.getElementById("results");
 
     form.addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault();
 
         // Get user input values
         const name = document.getElementById("name").value;
-        const start = parseInt(document.getElementById("start").value);
-        const end = parseInt(document.getElementById("end").value);
-        const fizzWord = document.getElementById("fizzWord").value;
-        const fizzNum = parseInt(document.getElementById("fizzNum").value);
-        const buzzWord = document.getElementById("buzzWord").value;
-        const buzzNum = parseInt(document.getElementById("buzzNum").value);
-        const bangWord = document.getElementById("bangWord").value;
-        const bangNum = parseInt(document.getElementById("bangNum").value);
+        const start = parseInt(document.getElementById("start-number").value);
+        const end = parseInt(document.getElementById("end-number").value);
+        const fizzWord = document.getElementById("fizz-word").value;
+        const fizzNum = parseInt(document.getElementById("fizz-number").value);
+        const buzzWord = document.getElementById("buzz-word").value;
+        const buzzNum = parseInt(document.getElementById("buzz-number").value);
+        const bangWord = document.getElementById("bang-word").value;
+        const bangNum = parseInt(document.getElementById("bang-number").value);
 
         // Generate greeting
         let greeting = `Hello, ${name}! Here are your FizzBuzzBang results:`;
         let output = [];
 
-        // FizzBuzzBang logic
         for (let i = start; i <= end; i++) {
             let result = '';
             if (i % fizzNum === 0) result += fizzWord;
