@@ -29,7 +29,7 @@ footer p {
 h1 {
   color: #f2cc8f;
   font-size: 42px;
-  margin-bottom: 3px;
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -43,7 +43,7 @@ h2 {
 
 h3 {
   font-family: 'Merriweather', serif;
-  margin: 3px 0;
+  margin: 0px;
 }
 
 p {
