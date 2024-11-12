@@ -65,7 +65,6 @@ function handleFormSubmit(event) {
 
   // Create a result HTML
   const resultHTML = `
-      <h2>Submitted Information</h2>
       <p><strong>Name:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email}</p>
       <p><strong>Personal Background:</strong> ${background}</p>
