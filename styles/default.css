@@ -20,6 +20,10 @@ header {
     flex-wrap: wrap;
 }
 
+header p {
+    color: #f2cc8f;
+}
+
 .header-content {
     display: flex;
     align-items: center;
