@@ -1,4 +1,4 @@
-html, body {
+body {
   background-color: #f4f1de;
   color: #3d405b;
   font-family: 'Open Sans', sans-serif;
@@ -6,12 +6,8 @@ html, body {
   margin: 0;
   padding: 15px;
   box-sizing: border-box;
-}
-
-body {
   max-width: 1200px;
   margin: auto;
-  padding: 10px;
 }
 
 header, footer {
@@ -69,7 +65,7 @@ li {
 
 nav {
   background-color: #e07a5f;
-  color: #f2cc8f;
+  color: orange;
   padding: 15px;
   text-align: center;
   font-weight: bold;
