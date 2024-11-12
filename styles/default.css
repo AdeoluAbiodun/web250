@@ -1,175 +1,94 @@
 body {
-  background-color: #f4f1de;
-  color: #3d405b;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.8;
-  margin: 0;
-  padding: 10px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  margin: auto;
+    background-color: #f4f1de;
+    color: #3d405b;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-header, footer {
-  text-align: center;
-  background-color: #3d405b;
-  color: #e07a5f;
-  padding: 10px 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  border-bottom: 3px solid #ffafcc;
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3d405b;
+    color: #f2cc8f;
+    padding: 10px;
+    text-align: center;
 }
 
-footer p {
-  color: #f2cc8f;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1;
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: left;
 }
 
-h1 {
-  color: #f2cc8f;
-  font-size: 42px;
-  margin-bottom: 0px;
-}
-
-h2 {
-  font-size: 30px;
-  color: #3d405b;
-  text-align: center;
-  font-weight: 1000;
-  font-family: 'Merriweather', serif;
-  margin-bottom: 0px;
-}
-
-h3 {
-  font-family: 'Merriweather', serif;
-  margin: 0px;
-}
-
-p {
-  color: #3d405b;
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 0px;
-}
-
-li {
-  list-style: disc;
-  margin-left: 25px;
-  color: #3d405b;
-  font-size: 18px;
-  margin-bottom: 0px;
+.header-content .logo {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
 }
 
 nav {
-  background-color: #e07a5f;
-  color: orange;
-  padding: 10px;
-  text-align: center;
-  font-weight: bold;
-  margin: 5px 0;
-  font-size: 18px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #e07a5f;
+    padding: 8px 0;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 nav a {
-  font-family: 'Montserrat', sans-serif;
-  color: orange;
-  text-decoration: none;
-  margin: 0 0px;
+    color: #f2cc8f;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
-a:link, a:visited {
-  color: #3d405b;
-  text-decoration: none;
-  font-weight: bold;
+nav a:hover {
+    text-decoration: underline;
 }
 
-a:hover {
-  color: #81b29a;
-  text-decoration: underline;
+footer {
+    background-color: #3d405b;
+    color: #e07a5f;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    margin-top: 20px;
 }
 
-a:active {
-  color: #001219;
+footer nav a {
+    color: #f2cc8f;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
-figure {
-  width: 300px;
-  margin: 20px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+footer p {
+    color: #f2cc8f;
+    margin-top: 10px;
 }
 
-figure img {
-  border: 1px solid #023047;
+h1 {
+    font-size: 36px;
+    color: #f2cc8f;
+    margin: 5px 0;
 }
 
-figcaption {
-  font-size: 17px;
+p {
+    color: #3d405b;
 }
 
-.form-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 15px;
+h2, h3 {
+    color: #3d405b;
+    font-family: 'Merriweather', serif;
 }
 
-#fizzbuzzbang-form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  max-width: 600px;
-}
-
-#fizzbuzzbang-form label, #fizzbuzzbang-form input {
-  flex: 1 1 45%;
-  margin-bottom: 5px;
-}
-
-#fizzbuzzbang-form button {
-  margin-top: 10px;
-  width: 100%;
-}
-
-.slogan {
-  font-style: italic;
-  color: #1b262c;
-  font-size: 17px;
-  margin-top: 10px;
-  text-align: center;
-}
-
-#name, #email, #computer {
-    width: 300px;
-}
-
-#background, #professional, #courses, #funny {
-      width: 100%;
-}
-
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-  }
-  nav {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  body {
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 1025px) {
-  body {
-    font-size: 20px;
-  }
+/* Accessibility adjustments */
+a:focus {
+    outline: 2px solid #81b29a;
+    outline-offset: 2px;
 }
