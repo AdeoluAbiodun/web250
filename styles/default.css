@@ -101,6 +101,10 @@ h2 {
     text-align: center;
 }
 
+img {
+    position: center;
+}
+
 h3 {
     color: #3d405b;
     font-family: 'Merriweather', serif;
