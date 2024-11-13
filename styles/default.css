@@ -17,12 +17,13 @@ header {
     color: #3d405b;
     padding: 10px;
     gap: 15px;
-    text-align: left;
+    text-align: center;
     flex-wrap: wrap;
 }
 
 header p {
     color: #f2cc8f;
+    text-align: center;
 }
 
 .header-content {
@@ -35,7 +36,7 @@ header p {
     height: 100%;
     max-height: 80px;
     border-radius: 5px;
-    margin-right: auto;
+    margin: auto;
 }
 
 h1 {
@@ -80,7 +81,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 footer nav a {
