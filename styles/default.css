@@ -12,86 +12,79 @@ body {
 header, footer {
     display: flex;
     align-items: center;
+    justify-content: center; /* Center contents */
     background-color: #3d405b;
-    /* color: #f2cc8f; */
-    color: #3d405b;
+    color: #f2cc8f; /* Improved contrast */
     padding: 10px;
-    gap: 15px;
     text-align: center;
     flex-wrap: wrap;
-}
-
-header p, footer p {
-    color: #f2cc8f;
-    text-align: center;
+    gap: 15px;
 }
 
 .header-content {
     display: flex;
     align-items: center;
+    justify-content: center; /* Center header content */
     gap: 10px;
 }
 
 .logo {
-    height: 100%;
     max-height: 80px;
     border-radius: 5px;
-    margin: auto;
+    margin-right: 10px; /* Align logo to the left of text */
 }
 
 h1 {
     font-size: 36px;
-    color: #f2cc8f;
+    color: #f2cc8f; /* Improved contrast */
     margin: 0;
     line-height: 1.2;
-}
-
-p {
-    color: #3d405b;
-    margin: 0;
-}
-
-nav {
-    background-color: #e07a5f;
-    padding: 8px 0;
-    font-weight: bold;
-    font-size: 16px;
-    text-align: center;
-    width: 100%;
-}
-
-nav a {
-    color: #f2cc8f;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-nav a:hover,
-nav a:focus {
-    color: #3d405b;
-    text-decoration: underline;
-    outline: none;
-}
-
-footer nav a {
-    color: #3d405b;
-    text-decoration: none;
-    margin: 0 10px;
 }
 
 h2 {
     color: #3d405b;
     font-family: 'Merriweather', serif;
     text-align: center;
-}
-
-img {
-    position: center;
+    margin-bottom: 10px; /* Adjusted spacing */
 }
 
 h3 {
     color: #3d405b;
     font-family: 'Merriweather', serif;
+}
+
+p {
+    color: #3d405b;
+    margin-top: 5px; /* Reduced spacing */
+}
+
+/* Center Image */
+main figure {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Navigation Links */
+nav a {
+    color: #f2cc8f; /* Improved contrast */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover, nav a:focus {
+    color: #3d405b;
+    text-decoration: underline;
+    outline: none;
+}
+
+/* Footer Links */
+footer nav a {
+    color: #f2cc8f; /* Improved contrast */
+    text-decoration: none;
+    margin: 0 10px;
 }
 
 a:focus {
