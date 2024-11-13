@@ -51,8 +51,6 @@ function getCookie(name) {
 function handleFormSubmit(event) {
   event.preventDefault();
   // Get form values
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
   const background = document.getElementById("background").value;
   const professional = document.getElementById("professional").value;
   const courses = document.getElementById("courses").value;
@@ -65,8 +63,6 @@ function handleFormSubmit(event) {
 
   // Create a result HTML
   const resultHTML = `
-      <p><strong>Name:</strong> ${name}</p>
-      <p><strong>Email:</strong> ${email}</p>
       <p><strong>Personal Background:</strong> ${background}</p>
       <p><strong>Professional Experience:</strong> ${professional}</p>
       <p><strong>Courses I am Taking and Why:</strong> ${courses}</p>
