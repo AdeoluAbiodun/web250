@@ -21,6 +21,10 @@ header, footer {
     gap: 15px;
 }
 
+header p, footer p {
+    color: #f2cc8f;
+}
+
 .header-content {
     display: flex;
     align-items: center;
@@ -49,7 +53,7 @@ h2 {
 }
 
 h3 {
-    color: #3d405b;
+    color: #f2cc8f /*#3d405b;*/
     font-family: 'Merriweather', serif;
 }
 
@@ -75,7 +79,7 @@ nav a {
 }
 
 nav a:hover, nav a:focus {
-    color: #3d405b;
+    color: orange;
     text-decoration: underline;
     outline: none;
 }
