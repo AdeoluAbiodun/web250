@@ -13,7 +13,8 @@ header {
     display: flex;
     align-items: center;
     background-color: #3d405b;
-    color: #f2cc8f;
+    /* color: #f2cc8f; */
+    color: #3d405b;
     padding: 10px;
     gap: 15px;
     text-align: left;
@@ -74,7 +75,8 @@ nav a:focus {
 
 footer {
     background-color: #3d405b;
-    color: #e07a5f;
+    color: #3d405b;
+    /* color: #e07a5f; */
     text-align: center;
     padding: 10px 0;
     font-size: 14px;
@@ -82,7 +84,8 @@ footer {
 }
 
 footer nav a {
-    color: #f2cc8f;
+   /* color: #f2cc8f; */
+    color: #3d405b;
     text-decoration: none;
     margin: 0 10px;
 }
