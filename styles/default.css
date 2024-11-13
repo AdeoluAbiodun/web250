@@ -70,13 +70,13 @@ main figure {
     margin: 20px 0;
 }
 
-#brandimage {
+.brandimage {
     justify-content: left;
     align-items: left;
+    margin: left;
 }
     
 
-/* Navigation Links */
 nav a {
     color: #f2cc8f;
     text-decoration: none;
