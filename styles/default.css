@@ -66,7 +66,8 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-    color: #ffafcc;
+    /* color: #ffafcc; */
+    color: #3d405b;
     text-decoration: underline;
     outline: none;
 }
