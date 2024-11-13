@@ -70,7 +70,7 @@ main figure {
     margin: 20px 0;
 }
 
-.brandimage {
+#brandimage {
     justify-content: left;
     align-items: left;
 }
