@@ -68,33 +68,16 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-    /* color: #ffafcc; */
     color: #3d405b;
     text-decoration: underline;
     outline: none;
 }
 
-/* footer {
-    background-color: #3d405b;
-    color: #3d405b;
-    /* color: #e07a5f; */
-    text-align: center;
-    padding: 10px 0;
-    font-size: 14px;
-    margin-top: 10px;
-} */
-
 footer nav a {
-   /* color: #f2cc8f; */
     color: #3d405b;
     text-decoration: none;
     margin: 0 10px;
 }
-
-/* footer p {
-    color: #f2cc8f;
-    margin-top: 10px;
-} */
 
 h2 {
     color: #3d405b;
@@ -110,7 +93,6 @@ h3 {
     color: #3d405b;
     font-family: 'Merriweather', serif;
 }
-
 
 a:focus {
     outline: 2px solid #81b29a;
