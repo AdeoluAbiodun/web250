@@ -71,6 +71,12 @@ main figure {
     margin: 20px 0;
 }
 
+.brand_image {
+    justify-content: left;
+    align-items: left;
+}
+    
+
 /* Navigation Links */
 nav a {
     color: #f2cc8f; /* Improved contrast */
