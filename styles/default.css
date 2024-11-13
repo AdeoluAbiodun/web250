@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
 }
 
-header {
+header, footer {
     display: flex;
     align-items: center;
     background-color: #3d405b;
@@ -21,7 +21,7 @@ header {
     flex-wrap: wrap;
 }
 
-header p {
+header p, footer p {
     color: #f2cc8f;
     text-align: center;
 }
@@ -74,7 +74,7 @@ nav a:focus {
     outline: none;
 }
 
-footer {
+/* footer {
     background-color: #3d405b;
     color: #3d405b;
     /* color: #e07a5f; */
@@ -82,7 +82,7 @@ footer {
     padding: 10px 0;
     font-size: 14px;
     margin-top: 10px;
-}
+} */
 
 footer nav a {
    /* color: #f2cc8f; */
@@ -91,10 +91,10 @@ footer nav a {
     margin: 0 10px;
 }
 
-footer p {
+/* footer p {
     color: #f2cc8f;
     margin-top: 10px;
-}
+} */
 
 h2 {
     color: #3d405b;
