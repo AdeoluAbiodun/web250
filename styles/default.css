@@ -2,10 +2,10 @@ body {
     background-color: #f4f1de;
     color: #3d405b;
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.8;
+    line-height: 1.5;
     max-width: 1200px;
     margin: auto;
-    padding: 10px;
+    padding: 7px;
     box-sizing: border-box;
 }
 
@@ -15,10 +15,10 @@ header, footer {
     justify-content: center;
     background-color: #3d405b;
     color: #f2cc8f;
-    padding: 10px;
+    padding: 7px;
     text-align: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 12px;
 }
 
 header p, footer p {
@@ -29,7 +29,7 @@ header p, footer p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 7px;
 }
 
 .logo {
@@ -49,7 +49,7 @@ h2 {
     color: #3d405b;
     font-family: 'Merriweather', serif;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 h3 {
@@ -59,7 +59,7 @@ h3 {
 
 p {
     color: #3d405b;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 main figure {
@@ -67,7 +67,7 @@ main figure {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .brandimage {
@@ -80,7 +80,7 @@ main figure {
 nav a {
     color: #f2cc8f;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 7px;
 }
 
 nav a:hover, nav a:focus {
@@ -93,7 +93,7 @@ nav a:hover, nav a:focus {
 footer nav a {
     color: #f2cc8f;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 7px;
 }
 
 a:focus {
