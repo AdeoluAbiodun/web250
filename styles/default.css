@@ -2,9 +2,9 @@ body {
     background-color: #f4f1de;
     color: #3d405b;
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.5;
+    line-height: 1.2;
     max-width: 1200px;
-    margin: auto;
+    margin: 0px;
     padding: 7px;
     box-sizing: border-box;
 }
@@ -71,7 +71,7 @@ main figure {
 }
 
 .brandimage {
-    justify-content: left;
+    /*justify-content: left;*/
     /*align-items: left;*/
     margin-left: 0px;
 }
