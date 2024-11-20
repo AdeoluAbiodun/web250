@@ -15,8 +15,8 @@
     <div data-include="components/header.html"></div>
     <div class="content">
         <div class="left-column">
-            <h2>FizzBuzz Example</h2>
-            <p>Here's the classic FizzBuzz challenge:</p>
+            <h2>FizzBuzz Assignment</h2>
+            <p>Here's the M8 Fizz Buzz Assignment:</p>
             <pre>
 <?php
 // Define the variables
