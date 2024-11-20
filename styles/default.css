@@ -72,8 +72,8 @@ main figure {
 
 .brandimage {
     justify-content: left;
-    align-items: left;
-    margin: left;
+    /*align-items: left;*/
+    margin-left: 0px;
 }
     
 
