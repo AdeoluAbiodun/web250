@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harmony Breeze Designs Ltd.</title>
+    <title>Harmony Breeze Business Card.</title>
     <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
     <style>
-        * {
+        html, html::before, html::after {
             box-sizing: border-box;
         }
+
         body {
             margin: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,9 +19,10 @@
             height: 100vh;
             background: linear-gradient(to bottom right, #f3e7dd, #a4b3c1);
         }
+
         .business-card {
-            width: 500px;
-            height: 300px;
+            /*width: 500px;
+            height: 300px;*/
             background-color: #ffffff;
             border: 1px solid #ccc;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -31,39 +33,47 @@
             justify-content: space-between;
             text-align: center;
         }
+
         .business-card img {
             max-width: 100px;
             margin: 0 auto;
         }
+
         h1 {
             font-size: 1.8rem;
             margin: auto;
             color: #00509e;
         }
-        .business-card p {
-            margin: 2px;
-            color: #4d4d4d;
-        }
-        .business-card .contact-info {
-            font-size: 0.95rem;
-            line-height: 1.2;
-            color: #333333;
-        }
-        .business-card .slogan {
+
+        .slogan {
             font-size: 1.1rem;
             font-style: italic;
             color: #0078d7;
             margin-bottom: 10px;
         }
+
+        p {
+            margin: 2px;
+            color: #4d4d4d;
+        }
+
+        .contact-info {
+            font-size: 0.95rem;
+            line-height: 1.2;
+            color: #333333;
+        }
+
         footer {
             font-size: 0.85rem;
             color: #0078d7;
             margin-top: 20px;
         }
+
         footer a {
             color: #00509e;
             text-decoration: none;
         }
+
         footer a:hover {
             text-decoration: underline;
         }
@@ -72,7 +82,7 @@
 <body>
     <div class="business-card">
         <img src="images/logo.png" alt="Harmony Breeze Logo">
-        <h1>Harmony Breeze Designs Ltd.</h1>
+        <h1>Adeolu's Harmony Breeze Limited</h1>
         <p class="slogan">"Crafting melodies for your perfect moments."</p>
         <div class="contact-info">
             <p><strong>Adeolu Abiodun</strong></p>
@@ -82,7 +92,7 @@
             <p>Suite 987, Music City, NC 28200</p>
         </div>
         <footer>
-            Designed by <a href="brand.html">Harmony Breeze Designs Ltd.</a>
+            Designed by <a href="brand.html">Harmony Breeze Ltd.</a>
         </footer>
     </div>
 </body>
