@@ -25,6 +25,15 @@ header p, footer p {
     color: #f2cc8f;
 }
 
+.footer-link {
+    color: #f2cc8f;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
 .header-content {
     display: flex;
     align-items: center;
